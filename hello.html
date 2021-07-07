@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Hello there!!! </title>
+        <script> 
+        function hi()
+        {
+            if (document.querySelector('h1').innerHTML === 'Hello!')
+                {
+                    document.querySelector('h1').innerHTML='Goodbye!';
+                }///take a variable to store document.querySelector to increase effeciency
+            else 
+            {             
+                 document.querySelector('h1').innerHTML='Hello!';
+            }
+    }
+        </script>
+
+    </head>
+    <body>
+        <h1>Hello!</h1> 
+        <button onclick="hi()"> Click here </button>
+    </body>
+</html>
